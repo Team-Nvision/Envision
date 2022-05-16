@@ -4,7 +4,7 @@ const chapterSchema = require("./Chapter");
 
 
 const UnitSchema = new mongoose.Schema({
-    title: [String],
+    title: String,
     chapter: [chapterSchema], 
 
 })
